@@ -1,0 +1,94 @@
+body {
+    background: rgb(245, 245, 220);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    border-bottom: solid 3px rgb(201, 201, 201);
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 40px;
+}
+
+.chamada {
+    background: rgb(44, 13, 13);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+p {
+    font-size: 80%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgb(126, 124, 121);
+}
+
+.categoria-video {
+    display: flex;
+}
+
+.alguma-coisa {
+    background: rgb(44, 13, 13);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+
+.videos-br {
+    background: rgb(44, 13, 13);
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+    margin-left: 2%;
+    
+}
+
+h3 {
+    margin-left: 2%;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+.videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(0, 0, 0);
+}
+h2{
+    font-size: 30px;
+    margin-left: 3%;
+}
+@media (max-width: 768px) {
+    /* Estilos específicos para telas menores que 768px */
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
